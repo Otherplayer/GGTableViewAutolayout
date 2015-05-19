@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A61A0D70-B4DA-4F40-BDE4-677163BAB011</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GGTableViewAutoLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97A45A7E1B5F0CC9D82E0AAA88D015066B2561F8</key>
+		<string>https://github.com/Otherplayer/GGTableViewAutolayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GGTableViewAutoLayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97A45A7E1B5F0CC9D82E0AAA88D015066B2561F8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Otherplayer/GGTableViewAutolayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>97A45A7E1B5F0CC9D82E0AAA88D015066B2561F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97A45A7E1B5F0CC9D82E0AAA88D015066B2561F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GGTableViewAutoLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

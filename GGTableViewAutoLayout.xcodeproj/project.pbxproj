@@ -14,6 +14,7 @@
 		6351B7941AEFDCFB00626DE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6351B7931AEFDCFB00626DE8 /* Images.xcassets */; };
 		6351B7971AEFDCFB00626DE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6351B7951AEFDCFB00626DE8 /* LaunchScreen.xib */; };
 		6351B7A31AEFDCFB00626DE8 /* GGTableViewAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6351B7A21AEFDCFB00626DE8 /* GGTableViewAutoLayoutTests.m */; };
+		6351B7AE1AEFDDA600626DE8 /* GGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6351B7AD1AEFDDA600626DE8 /* GGCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6351B79C1AEFDCFB00626DE8 /* GGTableViewAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGTableViewAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6351B7A11AEFDCFB00626DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6351B7A21AEFDCFB00626DE8 /* GGTableViewAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTableViewAutoLayoutTests.m; sourceTree = "<group>"; };
+		6351B7AC1AEFDDA600626DE8 /* GGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCell.h; sourceTree = "<group>"; };
+		6351B7AD1AEFDDA600626DE8 /* GGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6351B78B1AEFDCFB00626DE8 /* AppDelegate.m */,
 				6351B78D1AEFDCFB00626DE8 /* ViewController.h */,
 				6351B78E1AEFDCFB00626DE8 /* ViewController.m */,
+				6351B7AC1AEFDDA600626DE8 /* GGCell.h */,
+				6351B7AD1AEFDDA600626DE8 /* GGCell.m */,
 				6351B7901AEFDCFB00626DE8 /* Main.storyboard */,
 				6351B7931AEFDCFB00626DE8 /* Images.xcassets */,
 				6351B7951AEFDCFB00626DE8 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6351B78F1AEFDCFB00626DE8 /* ViewController.m in Sources */,
+				6351B7AE1AEFDDA600626DE8 /* GGCell.m in Sources */,
 				6351B78C1AEFDCFB00626DE8 /* AppDelegate.m in Sources */,
 				6351B7891AEFDCFB00626DE8 /* main.m in Sources */,
 			);
@@ -350,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGTableViewAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGTableViewAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +426,7 @@
 				6351B7A81AEFDCFB00626DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6351B7A91AEFDCFB00626DE8 /* Build configuration list for PBXNativeTarget "GGTableViewAutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				6351B7AB1AEFDCFB00626DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
